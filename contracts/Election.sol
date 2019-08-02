@@ -5,7 +5,7 @@ contract Election {
     string public candidate;
 
     // constructor
-    function Election() public {
-        candidate = "candidate 1"
+    constructor() public {
+        candidate = "Candidate 1";
     }
 }
